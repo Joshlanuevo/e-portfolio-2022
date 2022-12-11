@@ -1,0 +1,9 @@
+.home-container {
+    background-color: black;
+}
+
+.home-img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
