@@ -84,20 +84,24 @@
     .NavbarItems {
       position: relative;
     }
-  
+
+    .navbar {
+      height: 80px;
+    }
+
     .nav-menu {
       display: flex;
       flex-direction: column;
       width: 100%;
       position: absolute;
-      top: 80px;
+      top: 67px;
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
     }
   
     .nav-menu.active {
-      background: #fff;
+      background: #24252a;
       left: 0;
       opacity: 1;
       transition: all 0.6s ease;
@@ -108,8 +112,8 @@
       text-align: center;
       padding: 2rem;
       width: 100%;
+      color: #fff;
       display: table;
-      border-bottom: 1px solid black;
     }
   
     .nav-links:hover {
@@ -132,6 +136,7 @@
       left: 0;
       transform: translate(25%, 50%);
       font-size: 25px;
+      margin-bottom: 5px;
     }
   
     .menu-icon {
@@ -143,5 +148,7 @@
       font-size: 1.8rem;
       cursor: pointer;
       margin-right: 15px;
+      margin-bottom: 5px;
+      color: #fff;
     }
 }
