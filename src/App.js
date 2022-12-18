@@ -1,12 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
-import About from "./pages/About";
-import Certificates from "./pages/Certificates";
+import Seminars from "./pages/Seminars";
+import Certificates from './pages/Certificates';
 import Home from "./pages/Home";
-import MyGroup from "./pages/MyGroup";
 
 import './App.css';
+import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
 
 function App() {
     return(
@@ -14,10 +15,11 @@ function App() {
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/seminars" element={<Seminars />} />
                 <Route path="/certificates" element={<Certificates />} />
-                <Route path="/my-group" element={<MyGroup />} />
-                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
             </Routes>
+            <Footer />
         </>
     );
 }
