@@ -1,4 +1,6 @@
-.container-cert {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.certs-container {
     font-family: "Quicksand", sans-serif;
     display: grid;
     place-items: center;
@@ -7,12 +9,12 @@
     background: linear-gradient(to right, #91eae4, #86a8e7, hsl(240, 51%, 67%));
 }
 
-.cert-header {
+.certs-header {
     margin: 15px;
     padding: 15px;
 }
 
-.cert-header h1 {
+.certs-header h1 {
     margin: 15px;
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
@@ -27,7 +29,12 @@
     margin-right: auto;
 }
 
-.container-content-cert {
+.total h2 {
+    position: relative;
+    right: 500px;
+}
+
+.card-certs-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -36,12 +43,7 @@
     gap: 2rem;
 }
 
-/* .card-header img {
-    display: block;
-    background-size: cover;
-} */
-
-.card {
+.card-certs {
     display: flex;
     flex-direction: column;
     width: clamp(20rem, calc(20rem + 2vw), 22rem);
@@ -52,28 +54,36 @@
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
 }
 
-.card-body {
+.cert {
+    width: 100%;
+    height: 250px;
+}
+
+.card-certs-body {
     padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: .5rem;
 }
 
-.card-body h1, p {
+.card-certs-body p {
+    text-align: center;
+    text-transform: uppercase;
     padding: 10px;
 }
 
-.card-body button {
-    margin-top: 15px 5px 5px 5px;
-    padding: 8px;
-    border-radius: 10px;
-    border: none;
-    font-size: 16px;
-    font-weight: 700;
-    background-color: lightgrey;
+@media screen and (max-width: 600px) {
+    .total h2 {
+        position: relative;
+        left: 0;
+        font-size: 20px;
+    }
 }
 
-.card-body button:hover{
-    background: #09bef0;
-    /* background: linear-gradient(to right, #91eae4, #86a8e7, hsl(240, 51%, 67%)); */
+@media screen and (max-width: 1000px) {
+    .total h2 {
+        position: relative;
+        right: 300px;
+        font-size: 20px;
+    }
 }
