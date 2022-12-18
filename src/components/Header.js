@@ -34,6 +34,17 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink
+                  to="/seminars"
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                  Seminars
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
                   to="/certificates"
                   className={({ isActive }) =>
                     "nav-links" + (isActive ? " activated" : "")
@@ -45,24 +56,13 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/my-group"
+                  to="/contact"
                   className={({ isActive }) =>
                     "nav-links" + (isActive ? " activated" : "")
                   }
                   onClick={closeMobileMenu}
                 >
-                  My Group
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  to="/about"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
-                  About
+                  Contact
                 </NavLink>
               </li>
             </ul>
