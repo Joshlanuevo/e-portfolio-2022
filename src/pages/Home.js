@@ -6,9 +6,10 @@ import './Home.css';
 
 const Home = () => {
   return (
+    <>
     <div className='home-container'>
       <div className="bg">
-        <img src={Homepage} alt="" className="home-img" style={{ width:"100vw", height: "100vh"  }}/>
+        <img src={Homepage} alt="" className="home-bg" style={{ width:"100vw", height: "100vh"  }}/>
       </div>
       <div className="home-title">
         <h1>SY 2022 - 2023</h1>
@@ -16,9 +17,10 @@ const Home = () => {
       <div className='home-content'>
         <h1>Seminars and Fieldtrips</h1>
         <p>Josh Ivan C. Lanuevo</p>
-        <NavLink to="/about" className="home-btn">About</NavLink>
+        <NavLink to="/seminars" className="home-btn">View All Seminar</NavLink>
       </div>
     </div>
+    </>
   )
 }
 
