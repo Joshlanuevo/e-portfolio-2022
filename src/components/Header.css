@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 .navbar {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #24252a;
     height: 67px;
     display: flex;
@@ -50,6 +53,7 @@
 
 .nav-item {
     height: 67px;
+    padding: 0px 20px;
     border-bottom: 2px solid transparent;
 }
 
