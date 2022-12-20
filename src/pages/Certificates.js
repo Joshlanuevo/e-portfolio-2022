@@ -35,7 +35,7 @@ const Certificates = () => {
             className='cert'
             small={AdvancedProgCert}
             large={AdvancedProgCert}
-            alt="Hello World!"
+            alt="ADVANCED PROGRAMMING & WEB TECHNOLOGY CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -47,7 +47,7 @@ const Certificates = () => {
             className='cert'
             small={BackendWebDevCert}
             large={BackendWebDevCert}
-            alt="Hello World!"
+            alt="BACKEND WEB DEVELOPMENT USING NODE JS, EXPRESS, and MongoDB CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -59,7 +59,7 @@ const Certificates = () => {
             className='cert'
             small={BestPracticesCert}
             large={BestPracticesCert}
-            alt="Hello World!"
+            alt="BEST PRACTICES IN IT INDUSTRY CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -71,7 +71,7 @@ const Certificates = () => {
             className='cert'
             small={DataMiningCert}
             large={DataMiningCert}
-            alt="Hello World!"
+            alt="DATA MINING & DATA ANALYTICS CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -83,7 +83,7 @@ const Certificates = () => {
             className='cert'
             small={DataPrivacyCert}
             large={DataPrivacyCert}
-            alt="Hello World!"
+            alt="DATA PRIVACY CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -95,7 +95,7 @@ const Certificates = () => {
             className='cert'
             small={CloudComputingCert}
             large={CloudComputingCert}
-            alt="Hello World!"
+            alt="FUNDAMENTALS OF CLOUD COMPUTING AND EFFICIENT SOLUTIONS FOR CLOUD DATA STORAGE CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -107,7 +107,7 @@ const Certificates = () => {
             className='cert'
             small={IPModularCert}
             large={IPModularCert}
-            alt="Hello World!"
+            alt="IP MODULAR COURSE CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -119,7 +119,7 @@ const Certificates = () => {
             className='cert'
             small={ITandCPECareersCert}
             large={ITandCPECareersCert}
-            alt="Hello World!"
+            alt="CAREERS IN IT AND CPE IN THE IT INDUSTRY CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -131,7 +131,7 @@ const Certificates = () => {
             className='cert'
             small={EmbeddedSystemsCert}
             large={EmbeddedSystemsCert}
-            alt="Hello World!"
+            alt="LATEST TECHNOLOGY IN EMBEDDED SYSTEMS CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -143,7 +143,7 @@ const Certificates = () => {
             className='cert'
             small={LawsAndProfessionalCert}
             large={LawsAndProfessionalCert}
-            alt="Hello World!"
+            alt="LAWS & PROFESSIONAL CONDUCTS FOR ICT PROFESSIONALS CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -155,7 +155,7 @@ const Certificates = () => {
             className='cert'
             small={MixedAugmentedCert}
             large={MixedAugmentedCert}
-            alt="Hello World!"
+            alt="MIXED AUGMENTED AND VIRTUAL REALITY WEBINAR CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -167,7 +167,7 @@ const Certificates = () => {
             className='cert'
             small={ReactNativeCert}
             large={ReactNativeCert}
-            alt="Hello World!"
+            alt="MOBILE APPLICATION UI DEVELOPMENT USING REACT NATIVE CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -179,7 +179,7 @@ const Certificates = () => {
             className='cert'
             small={QATestingCert}
             large={QATestingCert}
-            alt="Hello World!"
+            alt="QA Testing Conference: QA Tester Share Successful Software Testing Case Studies Certificate"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -191,7 +191,7 @@ const Certificates = () => {
             className='cert'
             small={WirelessNetworkCert}
             large={WirelessNetworkCert}
-            alt="Hello World!"
+            alt="WIRELESS NETWORKS & COMMUNICATIONS CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
@@ -203,7 +203,7 @@ const Certificates = () => {
             className='cert'
             small={ArduinoProjectsCert}
             large={ArduinoProjectsCert}
-            alt="Hello World!"
+            alt="WORKSHOPS ON ARDUINO PROJECTS CERTIFICATE"
           />
           <div className="card-certs-body">
             <p>Click Certificate to zoom</p>
