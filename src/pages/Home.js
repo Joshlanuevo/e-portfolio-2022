@@ -12,11 +12,12 @@ const Home = () => {
         <img src={Homepage} alt="" className="home-bg" style={{ width:"100vw", height: "100vh"  }}/>
       </div>
       <div className="home-title">
-        <h1>SY 2022 - 2023</h1>
+        <h1><b>Josh Ivan C. Lanuevo</b></h1>
       </div>
       <div className='home-content'>
         <h1>Seminars and Fieldtrips</h1>
-        <p>Josh Ivan C. Lanuevo</p>
+        <p>Dr. Belinda G. Bunag</p>
+        <h4>SUBJECT INSTRUCTOR</h4>
         <NavLink to="/seminars" className="home-btn">View All Seminar</NavLink>
       </div>
     </div>
